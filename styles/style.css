@@ -25,6 +25,7 @@
     padding: 15px 30px;
     border-radius: 8px;
     opacity: 100%;
+    border: none;
 }
 
 /* Nav styles */
@@ -72,4 +73,72 @@ nav{
     width: 475px;
     height: 400px;
     margin: 80px 100px;
+ }
+
+ .technologys{
+    padding: 80px 160px;
+ }
+
+ .section-title{
+    font-size: 40px;
+    font-weight: bold;
+ }
+ .section-description{
+    font-size: 16px;
+    font-weight: 300;
+ }
+ 
+ /* skills section styles */
+ .technology-container{
+   display: flex;
+   gap: 24px;
+ }
+ .tec-section{
+   font-size: 20px;
+   font-weight: bold;
+ }
+ .technology-description{
+   font-size: 16px;
+   font-weight: 300;
+ }
+ .technology-a{
+   background-color: #6295ee40;
+   padding: 32px 32px;
+   border-radius: 16px;
+ }
+ .technology-b{
+   background-color: #C6E4D6;
+   padding: 32px 32px;
+   border-radius: 16px;
+   
+ }
+ .technology-c{
+   background-color: #F7EBCF;
+   padding: 24px 24px;
+   border-radius: 16px;
+ }
+ .btn-3{
+   background-color: #5490F5;
+   font-weight: 300;
+   color: #FFFFFF; 
+   padding: 10px 20px;
+   border-radius: 8px;
+   border: none;
+
+ }
+ .btn-4{
+   background-color: #09A15C;
+   font-weight: 300;
+   color: #FFFFFF; 
+   padding: 10px 20px;
+   border-radius: 8px;
+   border: none;
+ }
+ .btn-5{
+   background-color: #FFC239;
+   font-weight: 300;
+   color: #FFFFFF; 
+   padding: 10px 20px;
+   border-radius: 8px;
+   border: none;
  }
