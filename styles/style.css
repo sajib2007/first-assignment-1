@@ -161,11 +161,50 @@ nav{
 
  .future-box{
  background-color: rgba(220, 254, 255, 0.263);
- width: 1280px;
- height: 255px;
  display: flex;
  justify-content: space-between;
  margin: 0 160px 0 160px;
  border-radius: 16px;
  }
+
+.technology-card{
+  display: flex;
+  gap: 32px;
+  align-content: center;
+}
+ .technology-banner{
+  background-color: rgba(238, 255, 220, 0.337);
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 10px 0 10px; */
+  padding: 48px;
+  border-radius: 24px;
+ }
+ .technology-card-container{
+  padding: 48px;
+  /* margin: 0 208px 0px 208px; */
+ }
+.technology-card-content{
+  text-align: justify;
+  font-size: 32px;
+  font-weight: bold;
  
+}
+.content-item{
+  font-size: 16px;
+  font-weight: 300;
+}
+.technology-card-img{
+  border-radius: 24px;
+  text-align: start;
+}
+
+.btn-6{
+  background-color: #006A50;
+  font-weight: 300;
+  font-size: 18px;
+  color: #FFFFFF; 
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+}
